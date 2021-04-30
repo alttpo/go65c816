@@ -1,4 +1,4 @@
-module github.com/aniou/go65c816
+module github.com/alttpo/go65c816
 
 go 1.13
 
@@ -12,3 +12,5 @@ require (
 	golang.org/x/sys v0.0.0-20190922100055-0a153f010e69 // indirect
 	gopkg.in/ini.v1 v1.62.0
 )
+
+replace github.com/aniou/go65c816 => github.com/alttpo/go65c816 master
